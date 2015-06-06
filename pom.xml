@@ -17,11 +17,6 @@
         <assertj-core-version>1.5.0</assertj-core-version>
     </properties>
 	
-	 <build>
-        <finalName>springthymeleaf</finalName>
-        <defaultGoal>install</defaultGoal>
-	</build>
-	
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -177,6 +172,8 @@
         </dependency>
     </dependencies>
     <build>
+		<finalName>springthymeleaf</finalName>
+        <defaultGoal>install</defaultGoal>
         <plugins>
             <plugin>
                 <groupId>org.apache.tomcat.maven</groupId>
